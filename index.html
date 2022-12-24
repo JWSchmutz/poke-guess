@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pokeguesser</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Poke Guesser</h1>
+    <div class="card">
+      <p id="message">Guess the pokemon</p>
+      <img id="pkmn-img" src="pikachu.jpg" alt="mystery pokemon" />
+      <br />
+      <label for="pokemon-filter">Start typing to filter the list below:</label>
+      <br />
+      <input name="pokemon-filter" id="pokemon-filter" />
+      <br />
+      <label for="pokemon-select">Choose a pokemon:</label>
+      <br />
+      <select name="pokemon" id="pokemon-select"></select>
+      <br />
+      <button id="guess">Guess</button>
+      <button id="play-again">Play Again</button>
+    </div>
+    <div class="pokedex">
+      <img src="pokedex.png" alt="pokedex" />
+      <p id="pokedex-list"></p>
+    </div>
+
+    <script src="pokemon.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+html{
+    background: url("bg.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+#pkmn-img{
+    filter: brightness(0%);
+    max-width: 100%;
+}
+
+.card{
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 15px;
+    border: solid 5px rgb(161, 0, 0);
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+}
+
+select, input, button{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#guess{
+    color: white;
+    background-color: blue;
+}
+
+#play-again{
+    display: none;
+    background-color: green;
+    color: white;
+}
+
+.pokedex{
+    text-align: center;
+    position: relative;
+    max-width: 632px;
+    margin: 5% auto;
+
+}
+
+.pokedex img{
+    width: 80%;
+}
+
+#pokedex-list{
+    position: absolute;
+    top: calc(26% - 20px);
+    left: 17%;
+    text-align: left;
+    font-size: 20px;
+    right: 24%;
+    bottom: 15%;
+    overflow: auto;
+}
+
+@media screen and (min-width: 1800px) {
+    .pokedex{
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        width: 510px;
+    }
+}
